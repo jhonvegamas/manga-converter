@@ -63,6 +63,21 @@
     </div>
   </section>
 
+  <!-- ═══ Video Demo ═══ -->
+  <section class="demo-video" id="demo">
+    <div class="demo-video-inner">
+      <span class="section-label">Demo</span>
+      <h2 class="section-title">See it in action</h2>
+      <p class="section-desc" style="margin-left:auto;margin-right:auto;">Watch MangaConv convert a PDF to CBZ — automatic detection, live preview, and one-click conversion.</p>
+      <div class="video-container">
+        <video id="demo-video" muted playsinline preload="auto">
+          <source src="assets/mangaconv-demo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </section>
+
   <!-- ═══ Features ═══ -->
   <section class="section" id="features">
     <div class="section-inner">
@@ -262,5 +277,19 @@ python main.py</div>
     <p>Made with &#128154; by Jhon Vegamas &middot; MIT License</p>
   </footer>
 
+  <script>
+    const video = document.getElementById('demo-video');
+    if (video) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting && video.paused) {
+            video.play();
+            observer.unobserve(video);
+          }
+        });
+      }, { threshold: 0.5 });
+      observer.observe(video);
+    }
+  </script>
 </body>
 </html>

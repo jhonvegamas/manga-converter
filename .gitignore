@@ -30,3 +30,8 @@ env/
 
 # Project-specific
 profiles.json
+
+# Hyperframes video project
+hyperframes-demo/node_modules/
+hyperframes-demo/mangaconv-demo.mp4
+hyperframes-demo/.hyperframes/

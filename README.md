@@ -39,7 +39,7 @@ MangaConv is a modern desktop GUI application that transforms your comic and man
 
 ## 🖼️ Screenshots
 
-> _Screenshots coming soon — the app features a navy header, drop zone, device selector, gamma slider, before/after preview panels, and a progress bar._
+> _[Watch the demo video](https://jhonvegamas.github.io/manga-converter/#demo) — see MangaConv in action: automatic detection, live preview, and one-click conversion._
 
 ---
 
@@ -197,7 +197,7 @@ MangaConv es una aplicación moderna de escritorio con interfaz gráfica que tra
 
 ## 🖼️ Capturas de pantalla
 
-> _Capturas próximamente — la app incluye encabezado azul marino, zona de arrastre, selector de dispositivo, slider gamma, paneles de vista previa y barra de progreso._
+> _[Mira el video demo](https://jhonvegamas.github.io/manga-converter/es/#demo) — observa MangaConv en acción: detección automática, vista previa en vivo y conversión con un clic._
 
 ---
 

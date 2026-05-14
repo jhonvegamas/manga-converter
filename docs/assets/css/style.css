@@ -232,6 +232,34 @@ body {
   background: var(--hairline);
 }
 
+/* ─── Video Demo ─── */
+.demo-video {
+  padding: 72px 24px;
+  background: var(--surface);
+}
+
+.demo-video-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.video-container {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.12);
+  background: #000;
+  margin-top: 32px;
+}
+
+.video-container video {
+  width: 100%;
+  display: block;
+  aspect-ratio: 1920/1080;
+  object-fit: cover;
+}
+
 /* ─── Section ─── */
 .section {
   padding: 72px 24px;
