@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MangaConv - Convert manga & manhwa PDFs to CBZ optimized for e-readers like Kindle, PocketBook, Kobo, and reMarkable.">
+  <meta name="keywords" content="manga, manhwa, pdf to cbz, kindle converter, pocketbook, kobo, ereader, comic converter">
+  <meta name="author" content="Jhon Vegamas">
+  <meta property="og:title" content="MangaConv - PDF to CBZ for E-readers">
+  <meta property="og:description" content="Convert manga & manhwa PDFs to CBZ optimized for Kindle, PocketBook, Kobo & reMarkable.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0a1530">
+  <link rel="icon" href="https://raw.githubusercontent.com/jhonvegamas/manga-converter/master/assets/icon.png">
+  <title>MangaConv — PDF to CBZ Converter for E-readers</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Lang switcher: default English, Spanish at /es/ -->
+  <link rel="alternate" hreflang="en" href="https://jhonvegamas.github.io/manga-converter/">
+  <link rel="alternate" hreflang="es" href="https://jhonvegamas.github.io/manga-converter/es/">
+</head>
+<body>
+
+  <!-- ═══ Header ═══ -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#" class="logo">
+        MangaConv
+        <span class="logo-badge">Beta</span>
+      </a>
+      <nav class="header-nav">
+        <a href="#features">Features</a>
+        <a href="#devices">Devices</a>
+        <a href="#how">How it works</a>
+        <a href="#install">Install</a>
+        <a href="es/" class="github-link" style="background:transparent;padding:0;color:var(--muted-light)!important;">
+          ES
+        </a>
+        <a href="https://github.com/jhonvegamas/manga-converter" class="github-link" target="_blank" rel="noopener">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+          GitHub
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ═══ Hero ═══ -->
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="hero-icon">&#128214;</span>
+      <h1>PDF <span>→</span> CBZ for your<br>e-reader</h1>
+      <p class="hero-subtitle">
+        Convert manga and manhwa PDFs into device-optimized CBZ files.
+        Automatic mode detection, smart page splitting, and a clean interface.
+      </p>
+      <div class="hero-actions">
+        <a href="#install" class="btn btn-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download
+        </a>
+        <a href="https://github.com/jhonvegamas/manga-converter" class="btn btn-secondary" target="_blank" rel="noopener">
+          View on GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ Features ═══ -->
+  <section class="section" id="features">
+    <div class="section-inner">
+      <div class="text-center">
+        <span class="section-label">Features</span>
+        <h2 class="section-title">Everything you need</h2>
+        <p class="section-desc">From automatic detection to batch processing — designed for manga readers who want the best experience on their device.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">&#128270;</div>
+          <h3>Auto Mode Detection</h3>
+          <p>Automatically distinguishes manga from manhwa by analyzing page aspect ratios — no manual guessing.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">&#9986;&#65039;</div>
+          <h3>Smart Page Splitting</h3>
+          <p>Tall manhwa/webtoon scroll pages are split into screen-sized sections for comfortable reading.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">&#128247;</div>
+          <h3>Device Optimization</h3>
+          <p>Resizes images to match your e-reader's native resolution for sharp, pixel-perfect output.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">&#127912;</div>
+          <h3>Image Adjustments</h3>
+          <p>Built-in gamma correction, grayscale conversion, and autocontrast for the perfect reading experience.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">&#128452;</div>
+          <h3>Real-time Preview</h3>
+          <p>See before/after thumbnails as you tweak settings — what you see is what you get.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">&#128190;</div>
+          <h3>Batch Conversion</h3>
+          <p>Process multiple PDFs at once with parallel workers. Convert your entire collection in one go.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">&#128203;</div>
+          <h3>Device Profiles</h3>
+          <p>20+ built-in profiles for Kindle, PocketBook, Kobo, and reMarkable. Save your own custom presets.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">&#128194;</div>
+          <h3>CBZ Output</h3>
+          <p>Standard comic book zip format with high-quality JPEG compression — compatible with all readers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ Devices ═══ -->
+  <section class="section" id="devices" style="background:var(--surface);">
+    <div class="section-inner">
+      <div class="text-center">
+        <span class="section-label">Compatibility</span>
+        <h2 class="section-title">Supported devices</h2>
+        <p class="section-desc">Pre-tuned resolutions for the most popular e-readers on the market.</p>
+      </div>
+
+      <div class="devices-grid">
+        <div class="device-group">
+          <div class="device-group-header">&#11088; Kindle</div>
+          <div class="device-group-body">
+            <div class="device-item"><span>Basic 11 (2024)</span><span class="device-res">1072 × 1448</span></div>
+            <div class="device-item"><span>Paperwhite 5 (2021)</span><span class="device-res">1236 × 1648</span></div>
+            <div class="device-item"><span>Paperwhite 6 (2024)</span><span class="device-res">1272 × 1696</span></div>
+            <div class="device-item"><span>Scribe (2022)</span><span class="device-res">1860 × 2480</span></div>
+            <div class="device-item"><span>Scribe 3 (2025)</span><span class="device-res">1986 × 2648</span></div>
+            <div class="device-item"><span>Oasis 2/3</span><span class="device-res">1264 × 1680</span></div>
+            <div class="device-item"><span>Voyage</span><span class="device-res">1072 × 1448</span></div>
+            <div class="device-item"><span>Colorsoft</span><span class="device-res">1272 × 1696</span></div>
+          </div>
+        </div>
+
+        <div class="device-group">
+          <div class="device-group-header">&#128218; PocketBook</div>
+          <div class="device-group-body">
+            <div class="device-item"><span>Verse Pro Color</span><span class="device-res">1072 × 1448</span></div>
+            <div class="device-item"><span>InkPad Color 3</span><span class="device-res">1404 × 1872</span></div>
+            <div class="device-item"><span>Era</span><span class="device-res">1264 × 1680</span></div>
+            <div class="device-item"><span>Touch HD 3</span><span class="device-res">1072 × 1448</span></div>
+          </div>
+        </div>
+
+        <div class="device-group">
+          <div class="device-group-header">&#128218; Kobo</div>
+          <div class="device-group-body">
+            <div class="device-item"><span>Libra Colour</span><span class="device-res">1264 × 1680</span></div>
+            <div class="device-item"><span>Clara BW</span><span class="device-res">1072 × 1448</span></div>
+            <div class="device-item"><span>Clara Colour</span><span class="device-res">1072 × 1448</span></div>
+            <div class="device-item"><span>Elipsa 2E</span><span class="device-res">1404 × 1872</span></div>
+            <div class="device-item"><span>Sage</span><span class="device-res">1440 × 1920</span></div>
+            <div class="device-item"><span>Forma</span><span class="device-res">1440 × 1920</span></div>
+          </div>
+        </div>
+
+        <div class="device-group">
+          <div class="device-group-header">&#9997;&#65039; reMarkable</div>
+          <div class="device-group-body">
+            <div class="device-item"><span>reMarkable 2</span><span class="device-res">1404 × 1872</span></div>
+            <div class="device-item"><span>Paper Pro</span><span class="device-res">1620 × 2160</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ How it Works ═══ -->
+  <section class="section" id="how">
+    <div class="section-inner">
+      <div class="text-center">
+        <span class="section-label">How it works</span>
+        <h2 class="section-title">Simple pipeline, great results</h2>
+        <p class="section-desc">From PDF to CBZ in five steps — fully automated.</p>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <h3>Detect</h3>
+          <p>Scans the first 50 pages — if ≥30% are tall, it's manhwa.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <h3>Extract</h3>
+          <p>Pulls high-quality images from each PDF page using PyMuPDF.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <h3>Process</h3>
+          <p>Applies gamma, grayscale, autocontrast, and device resize.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">4</div>
+          <h3>Split</h3>
+          <p>Manhwa pages are divided into perfectly-sized screen sections.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">5</div>
+          <h3>Package</h3>
+          <p>All images are zipped into a .cbz file with JPEG compression.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ Install ═══ -->
+  <section class="section" id="install">
+    <div class="section-inner">
+      <div class="install-box">
+        <div>
+          <h3>Get started</h3>
+          <p>Download the latest release or run from source with Python 3.10+.</p>
+
+          <div class="code-block"># Install from source
+<span class="comment"># 1. Clone the repo</span>
+git clone https://github.com/jhonvegamas/manga-converter.git
+<span class="comment"># 2. Install dependencies</span>
+pip install -r requirements.txt
+<span class="comment"># 3. Run</span>
+python main.py</div>
+        </div>
+
+        <div class="install-actions">
+          <a href="https://github.com/jhonvegamas/manga-converter/releases" class="btn btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download latest release
+          </a>
+          <a href="https://github.com/jhonvegamas/manga-converter" class="btn btn-ghost" style="background:rgba(255,255,255,0.08);color:var(--canvas);border-color:rgba(255,255,255,0.15);">
+            View source code
+          </a>
+          <p class="install-note">Windows, Linux & macOS supported. No internet required.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ Footer ═══ -->
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="https://github.com/jhonvegamas/manga-converter">GitHub</a>
+      <a href="https://github.com/jhonvegamas/manga-converter/releases">Releases</a>
+      <a href="https://github.com/jhonvegamas/manga-converter/issues">Issues</a>
+      <a href="es/">Español</a>
+    </div>
+    <p>Made with &#128154; by Jhon Vegamas &middot; MIT License</p>
+  </footer>
+
+</body>
+</html>
